@@ -90,13 +90,13 @@ function HeroSection({
             >
               <div className="col">
                 <div className="home__hero-text-wrapper">
-                  <div className="top-line">Mint Your PXF</div>
+                  <div className="top-line">Mint Your PxFrens</div>
                   <h1 className={lightText ? "heading" : "heading dark"}>
                     {/* {totalSupply}/{maxSupply}
                     <br />
                     Price {cost * amount}
                     {ethers.constants.EtherSymbol} */}
-                    Welcome to PX
+                    Welcome To PXFrens
                   </h1>
                   <p
                     className={
@@ -105,9 +105,10 @@ function HeroSection({
                         : "home__hero-subtitle dark"
                     }
                   >
-                    MInting : February 6pm PST / 9pm EST
+                    Minting: February 6pm PST / 9pm EST
                     <br />
-                    First 555 are Free to mint , Rest are 0.01E
+                    First 555 are FREE + gas to mint The remaining 5000 are 0.01
+                    ETH
                   </p>
                   {isOnlyWhitelisted ? (
                     <div>
