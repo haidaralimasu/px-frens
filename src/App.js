@@ -9,12 +9,12 @@ import Accordion from "./components/Accordian";
 import Roadmap from "./components/Roadmap";
 
 const config = {
-  readOnlyChainId: ChainId.Rinkeby,
+  readOnlyChainId: ChainId.Mainnet,
   readOnlyUrls: {
-    [ChainId.Rinkeby]:
-      "https://rinkeby.infura.io/v3/70ced43c56d248f18566ebe01e2d9fbe",
+    [ChainId.Mainnet]:
+      "https:/mainnet.infura.io/v3/70ced43c56d248f18566ebe01e2d9fbe",
   },
-  supportedChains: [ChainId.Rinkeby],
+  supportedChains: [ChainId.Mainnet],
 };
 
 const App = () => {

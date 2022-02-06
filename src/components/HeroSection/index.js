@@ -90,13 +90,12 @@ function HeroSection({
             >
               <div className="col">
                 <div className="home__hero-text-wrapper">
-                  <div className="top-line">Mint your new PxFrens!</div>
+                  <div className="top-line">Mint Your PXF</div>
                   <h1 className={lightText ? "heading" : "heading dark"}>
-                    {/* {totalSupply}/{maxSupply}
+                    {totalSupply}/{maxSupply}
                     <br />
                     Price {cost * amount}
-                    {ethers.constants.EtherSymbol} */}
-                    Welcome to Pxfrens
+                    {ethers.constants.EtherSymbol}
                   </h1>
                   <p
                     className={
@@ -105,7 +104,7 @@ function HeroSection({
                         : "home__hero-subtitle dark"
                     }
                   >
-                    Minting : February 6th at 6pm PST / 9pm EST
+                    Minting : Live
                     <br />
                     First 555 are FREE + Gas to mint. The remaining 5000 are
                     0.01ETH.
@@ -136,7 +135,7 @@ function HeroSection({
                                   </Button>
                                 ) : (
                                   <Button
-                                    // onClick={() => handleMint()}
+                                    onClick={() => handleMint()}
                                     buttonSize="btn--wide"
                                     buttonColor="blue"
                                   >
@@ -161,7 +160,7 @@ function HeroSection({
                               buttonSize="btn--wide"
                               buttonColor="blue"
                             >
-                              Minting Soon
+                              Connect
                             </Button>
                           )}
                         </div>
@@ -175,11 +174,11 @@ function HeroSection({
                             </>
                           ) : (
                             <Button
-                              // onClick={() => activateBrowserWallet(onError)}
+                              onClick={() => activateBrowserWallet(onError)}
                               buttonSize="btn--wide"
                               buttonColor="blue"
                             >
-                              Minting Soon
+                              Connect
                             </Button>
                           )}
                         </div>
@@ -190,7 +189,7 @@ function HeroSection({
                       <div style={{ display: "flex" }}>
                         {account ? (
                           <>
-                            {/* <div>
+                            <div>
                               <Button
                                 onClick={() => decreaseAmount()}
                                 className="margin-btn"
@@ -199,7 +198,7 @@ function HeroSection({
                               >
                                 -
                               </Button>
-                            </div> */}
+                            </div>
                             <div>
                               {minting ? (
                                 <Button
@@ -210,16 +209,15 @@ function HeroSection({
                                 </Button>
                               ) : (
                                 <Button
-                                  // onClick={() => handleMint()}
+                                  onClick={() => handleMint()}
                                   buttonSize="btn--wide"
                                   buttonColor="blue"
                                 >
-                                  {/* Mint {amount} PXF */}
-                                  Minting Soon
+                                  Mint {amount} PXF
                                 </Button>
                               )}
                             </div>
-                            {/* <div>
+                            <div>
                               <Button
                                 onClick={() => increaseAmount()}
                                 className="margin-btn"
@@ -228,7 +226,7 @@ function HeroSection({
                               >
                                 +
                               </Button>
-                            </div> */}
+                            </div>
                           </>
                         ) : (
                           <Button
