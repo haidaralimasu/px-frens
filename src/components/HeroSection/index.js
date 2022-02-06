@@ -277,7 +277,7 @@ function HeroSection({
                         : "home__hero-subtitle dark"
                     }
                   >
-                    {description}
+                    We have solded out, You can buy on Opensea
                   </p>
                   <div to="/sign-up">
                     <a href="https://www.opensea.io" target="blank">
