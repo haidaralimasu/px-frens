@@ -74,7 +74,7 @@ function HeroSection({
 
   return (
     <>
-      {totalSupply < maxSupply ? (
+      {totalSupply < 5555 ? (
         <div
           className={
             lightBg ? "home__hero-section" : "home__hero-section darkBg"
