@@ -10,7 +10,7 @@ const AccordionSection = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  height: 120vh;
   background: #1c2237;
 `;
 
@@ -25,7 +25,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
 
   h1 {
@@ -42,7 +42,7 @@ const Dropdown = styled.div`
   background: #1c1c1c;
   color: white;
   width: 100%;
-  height: 100px;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;

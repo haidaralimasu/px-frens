@@ -175,11 +175,11 @@ function HeroSection({
                             </>
                           ) : (
                             <Button
-                              onClick={() => activateBrowserWallet(onError)}
+                              // onClick={() => activateBrowserWallet(onError)}
                               buttonSize="btn--wide"
                               buttonColor="blue"
                             >
-                              Connect
+                              Minting Soon
                             </Button>
                           )}
                         </div>
