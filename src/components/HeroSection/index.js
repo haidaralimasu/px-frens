@@ -39,7 +39,7 @@ function HeroSection({
   };
 
   const increaseAmount = () => {
-    if (amount < 5) {
+    if (amount < 25) {
       setAmount(amount + 1);
     }
   };
