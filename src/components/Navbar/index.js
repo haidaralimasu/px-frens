@@ -83,7 +83,7 @@ function Navbar() {
               <li className="nav-btn">
                 {button ? (
                   <a
-                    href="https://etherscan.io"
+                    href="https://etherscan.io/address/0x4A4b02C53aA9382808C2c033455471d231535352"
                     target="blank"
                     className="btn-link"
                   >
