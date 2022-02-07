@@ -61,7 +61,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="opensea.io"
+                  href="https://opensea.io/collection/px-frens"
                   target="blank"
                   className="nav-links"
                   onClick={closeMobileMenu}
