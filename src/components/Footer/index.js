@@ -37,7 +37,7 @@ function Footer() {
             </a>
             <a
               className="social-icon-link"
-              href="https://www.opensea.io"
+              href="https://opensea.io/collection/px-frens"
               rel="noreferrer"
               target="_blank"
               aria-label="Youtube"

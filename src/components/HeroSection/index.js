@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./HeroSection.css";
-import logo from "./logo.png";
+import logo from "./logo.gif";
 import { Button } from "../Button";
 import { useEthers } from "@usedapp/core";
 import { ethers } from "ethers";
